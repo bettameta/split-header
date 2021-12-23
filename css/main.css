@@ -87,48 +87,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 html, body {
   width: 100%;
   height: 100%;
   color: #fff;
   background: #000;
   font-family: 'Catamaran', sans-serif;
-  box-sizing: border-box;
 }
 
 body {
   overflow-y: hidden;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-  width: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
+h1, h2, h3, h4, h5, h6{
+  text-transform: capitalize;
+  line-height: 1.5em;
 }
 
 img {
   max-width: 100%;
 }
-
-li {
-  display: inline-block;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 
 .bio {
   width: 90%;
@@ -141,10 +119,10 @@ ul {
   width: 100%;
 }
 
-.flex {
+.hero {
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .split {

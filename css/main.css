@@ -104,12 +104,6 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1.5em;
 }
 
-img {
-  max-width: 100%;
-  background-color: black;
-  background-image: linear-gradient(black, blue);
-}
-
 .bio {
   width: 90%;
   padding: 10% 15%;
@@ -129,6 +123,12 @@ img {
 
 .split {
   width: 50%;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  opacity: .2;
 }
 
 button{
